@@ -1,4 +1,4 @@
-class Solution1(object):
+class Solution(object):
     def maxProfit(self, prices):
         """
         :type prices: List[int]
@@ -17,3 +17,4 @@ class Solution1(object):
         if num == float('inf'):
             num = 0
         return -num
+
